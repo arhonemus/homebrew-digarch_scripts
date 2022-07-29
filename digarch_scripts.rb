@@ -18,7 +18,7 @@ class DigarchScripts < Formula
     bin.install Dir["lib"]    
     bin.install Dir["files"]
     prefix.install "README.md"
-    prefix.install "LICENSE"
+    #prefix.install "LICENSE"
     system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
