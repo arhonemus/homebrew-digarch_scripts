@@ -14,7 +14,7 @@ class DigarchScripts < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    bin.install "kryofluxmove.sh"    
+    bin.install "Mac/kryofluxmove.sh"    
     bin.install Dir["lib"]    
     bin.install Dir["files"]
     prefix.install "README.md"
