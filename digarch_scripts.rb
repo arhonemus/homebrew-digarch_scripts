@@ -21,7 +21,7 @@ class DigarchScripts < Formula
     prefix.install "README.md"
     #prefix.install "LICENSE"
     # system "./configure", *std_configure_args, "--disable-silent-rules"
-    # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
+    system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
 
   #test do
