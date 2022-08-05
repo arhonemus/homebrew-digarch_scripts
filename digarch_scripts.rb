@@ -16,12 +16,12 @@ class DigarchScripts < Formula
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
     bin.install "Mac/kryofluxmove.sh"    
-    bin.install Dir["lib"]    
-    bin.install Dir["files"]
+    # bin.install Dir["lib"]    
+    # bin.install Dir["files"]
     prefix.install "README.md"
     #prefix.install "LICENSE"
     # system "./configure", *std_configure_args, "--disable-silent-rules"
-    system "cmake", "-S", ".", "-B", "build", *std_cmake_args
+    # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
 
   #test do
