@@ -7,6 +7,7 @@ class DigarchScripts < Formula
   url "https://github.com/arhonemus/digarch_scripts/archive/refs/tags/v0.0.1.tar.gz"
   sha256 "ff6aeade51c8343ff2fb9396b61fd06af23d9224434fe0257fcd867485b7e2e0"
   license "MIT"
+  head "https://github.com/arhonemus/digarch_scripts.git"
 
   # depends_on "cmake" => :build
 
