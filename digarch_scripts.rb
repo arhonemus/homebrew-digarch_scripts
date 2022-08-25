@@ -28,7 +28,7 @@ class DigarchScripts < Formula
     bin.install "kryofluxmove"
     bin.install "mediaidsha"
     bin.install "metadata"
-    bin.install "movephotograp"h
+    bin.install "movephotograph"
     bin.install "photosip"
     bin.install "qcfac"
     bin.install "qctools"
