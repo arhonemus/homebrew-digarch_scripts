@@ -15,7 +15,7 @@ class DigarchScripts < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    bin.install "Mac/" 
+    bin.install "Mac/*" 
    
     # bin.install Dir["lib"]    
     # bin.install Dir["files"]
