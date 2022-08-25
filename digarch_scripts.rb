@@ -4,8 +4,8 @@
 class DigarchScripts < Formula
   desc "Moves files from kryofluxoutput directory to Disk Images directory. Moves tars to kryofluxstreamarchive directory."
   homepage "https://github.com/arhonemus/digarch_scripts"
-  url "https://github.com/arhonemus/digarch_scripts/archive/refs/tags/v0.0.2.tar.gz"
-  sha256 "f08965d237fa5f440710568db1f67444c8c075df9df16787562ec580c79324f9"
+  url "https://github.com/arhonemus/digarch_scripts/archive/refs/tags/v0.0.3.tar.gz"
+  sha256 "cebadb524e649d3d353bd7ea04a3214de13b8745a916ec1277330308a8c3a383"
   license "MIT"
   head "https://github.com/arhonemus/digarch_scripts.git"
 
@@ -15,8 +15,8 @@ class DigarchScripts < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    bin.install "Mac/kryofluxmove" 
-    bin.install "Mac/SIPdir"
+    bin.install "Mac" 
+   
     # bin.install Dir["lib"]    
     # bin.install Dir["files"]
     prefix.install "README.md"
