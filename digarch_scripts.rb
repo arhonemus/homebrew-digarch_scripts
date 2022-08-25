@@ -15,8 +15,24 @@ class DigarchScripts < Formula
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    bin.install "Mac/*" 
-   
+    bin.install "CMSFTmetadata"
+    bin.install "CMSmetadata"
+    bin.install "SIPdir"
+    bin.install "collphoto"
+    bin.install "droidFT"
+    bin.install "droidprompt"
+    bin.install "dtemplate"
+    bin.install "facphoto"
+    bin.install "ft"
+    bin.install "ftsf"
+    bin.install "kryofluxmove"
+    bin.install "mediaidsha"
+    bin.install "metadata"
+    bin.install "movephotograp"h
+    bin.install "photosip"
+    bin.install "qcfac"
+    bin.install "qctools"
+    bin.install "sfft"
     # bin.install Dir["lib"]    
     # bin.install Dir["files"]
     prefix.install "README.md"
