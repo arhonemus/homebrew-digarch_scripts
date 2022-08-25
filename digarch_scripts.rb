@@ -4,8 +4,8 @@
 class DigarchScripts < Formula
   desc "Moves files from kryofluxoutput directory to Disk Images directory. Moves tars to kryofluxstreamarchive directory."
   homepage "https://github.com/arhonemus/digarch_scripts"
-  url "https://github.com/arhonemus/digarch_scripts/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "ff6aeade51c8343ff2fb9396b61fd06af23d9224434fe0257fcd867485b7e2e0"
+  url "https://github.com/arhonemus/digarch_scripts/archive/refs/tags/v0.0.2.tar.gz"
+  sha256 "f08965d237fa5f440710568db1f67444c8c075df9df16787562ec580c79324f9"
   license "MIT"
   head "https://github.com/arhonemus/digarch_scripts.git"
 
